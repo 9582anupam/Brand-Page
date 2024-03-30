@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Header from "./Header";
+import Header from "./header";
 import Body from "./Body";
 import Login from "./Login";
 

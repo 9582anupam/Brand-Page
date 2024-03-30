@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div className="flex justify-between px-20 py-5 bg-white mb-16 items-center">
+        <div className="flex justify-between px-20 py-5 bg-white mb-5 items-center">
             <div className="">
                 <Link to="/">
                     <img src="https://raw.githubusercontent.com/anshuopinion/React-10-Projects/project-1/project-1/public/images/brand_logo.png"></img>

@@ -1,6 +1,6 @@
 const Body = () => {
     return (
-        <div className="w-9/12 mx-auto flex pt-16">
+        <div className="w-9/12 mx-auto flex pt-10 overflow-hidden">
             <div className="left w-1/2">
                 <p className="font-extrabold text-8xl">
                     YOUR FEET DESERVE
