@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import React from "react";
+import { useContext } from "react";
+import LoginContext from "./LoginContext";
+
 
 const Header = () => {
+    const {username, setUsername} = useContext(LoginContext);
+    console.log(username);
+    // setUsername("Anupam");
     return (
         <div className="flex justify-between px-20 py-5 bg-white mb-5 items-center">
             <div className="">
@@ -18,7 +24,7 @@ const Header = () => {
             <div className=" text-white flex items-center justify-center ">
                 <Link to="/login/">
                     <button className="bg-red-600 py-0.5 px-2 text-lg rounded-md">
-                        Login
+                        {username}
                     </button>
                 </Link>
             </div>
