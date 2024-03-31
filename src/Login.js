@@ -33,7 +33,7 @@ const Login = () => {
             </div>
             
             {submit && <p>Email: {email}</p>}
-            {submit && <p className="pb-3">Password:{password}</p>}
+            {submit && <p className="pb-3">Password: {password}</p>}
             
         </div>
     );
